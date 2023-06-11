@@ -1,0 +1,171 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+
+}
+body {
+  font-family: "Montserrat";  
+}
+
+
+#title .container-fluid {
+  padding: 3% 15% 9%;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+h2 {
+  font-family: "montserrat";
+  color: white;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+
+}
+h3 {
+  font-family: "montserrat";
+  font-weight: 700;
+ 
+}
+p {
+  color: #8f8f8f;
+}
+
+/* HEading section */
+.big-heading{
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+
+}
+/* navbar section */
+.navbar{
+  padding:0 0 4.5rem;
+
+}
+.navbar-brand{
+
+  font-family: ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+  
+}
+.nav-item{
+  padding: 0 18px;
+  
+}
+.nav-link{
+  font-family: "montserrat"; 
+  font-size: 1.2rem;
+
+}
+
+/* download button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+.title-image{
+  width: 60%;
+  position: absolute;
+  transform: rotate(25deg);
+  right: 30%;
+}
+@media (max-width:1028px)
+{
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+
+#features {
+
+  background-color: white;
+  position: relative;
+
+
+  z-index: 1;
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+.features-box{
+  text-align: center;
+  padding: 4.5%;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+
+}
+.press-logo{
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.price-text{
+  color: black;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.plast{
+  padding-bottom: 40px;
+}
+
+/* Call to action */
+
+#cta{
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+
+
+  
+}
+
+/* Fotter Section */
+#footer{
+  text-align: center;
+
+
+}
+.foot-icon{
+ margin: 20px 10px;
+}
+.social-links{
+  color:rgb(30, 48, 80);
+}
